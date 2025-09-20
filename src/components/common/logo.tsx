@@ -12,12 +12,12 @@ const Logo = ({
 }) => {
   return (
     <div className="flex items-center">
-      <Image
+      {/* <Image
         src={logo}
         alt="Logo"
         width={imgWidth || 30}
         height={imgHeight || 30}
-      />
+      /> */}
       <span
         className={cn(
           `font-bold  font-montserrat text-xl text-gray-900`,
